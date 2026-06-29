@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated_at": "2026-06-29",
   "macros": [
     {
@@ -9,7 +9,8 @@
       "favorite": false,
       "hotkey": "ADMIN1",
       "tags": "demo,test,admin",
-      "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS}\n\nนี่คือ Macro ตัวอย่างที่ส่งจากระบบ Admin\nหากเห็นข้อความนี้ในแอป = sync ทำงานสำเร็จ\n\nขอบคุณ[ครับ/ค่ะ]"
+      "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS}\n\nนี่คือ Macro ตัวอย่างที่ส่งจากระบบ Admin\nหากเห็นข้อความนี้ในแอป = sync ทำงานสำเร็จ\n\nขอบคุณ[ครับ/ค่ะ]",
+      "deleted": true
     },
     {
       "id": 1002,
@@ -18,7 +19,8 @@
       "favorite": false,
       "hotkey": "Test2",
       "tags": "",
-      "content": "TEst 2"
+      "content": "TEst 2",
+      "deleted": true
     },
     {
       "id": 1003,
@@ -27,7 +29,8 @@
       "favorite": false,
       "hotkey": "F1",
       "tags": "",
-      "content": "ฟานฟาน"
+      "content": "ฟานฟาน",
+      "deleted": true
     }
   ],
   "categories": []
