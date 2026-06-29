@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated_at": "2026-06-29",
   "macros": [
     {
@@ -31,6 +31,15 @@
       "tags": "",
       "content": "ฟานฟาน",
       "deleted": true
+    },
+    {
+      "id": 1004,
+      "title": "🆕 Macro ใหม่",
+      "category": "chat-nv",
+      "favorite": false,
+      "hotkey": "",
+      "tags": "",
+      "content": "Test Unlive ร้าน - ลูกค้าเก่า"
     }
   ],
   "categories": []
