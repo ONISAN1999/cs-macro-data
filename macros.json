@@ -1,17 +1,6 @@
 {
   "version": 1,
   "updated_at": "2026-06-29",
-  "_comment": "Schema: เพิ่ม version ทุกครั้งที่แก้ไฟล์นี้ (CS App จะ sync เมื่อ version ใหม่กว่า)",
-  "_field_guide": {
-    "id": "number (unique) — ใช้ 1000+ เพื่อไม่ทับกับ default macros (1-30)",
-    "title": "string — ชื่อ Macro ที่ขึ้นบนการ์ด (ใส่ emoji หน้าได้)",
-    "category": "string — id ของหมวด (chat-nv / timer)",
-    "content": "string — เนื้อหา macro · ใช้ {ตัวแปร} เพื่อให้ user กรอก · [ครับ/ค่ะ] เปลี่ยนตาม gender",
-    "favorite": "boolean (optional) — default false",
-    "hotkey": "string (optional) — เช่น HG1, NEWMACRO",
-    "tags": "string (optional) — คำค้นหา คั่นด้วย comma",
-    "deleted": "boolean (optional) — set true เพื่อลบ macro นี้ออกจากเครื่อง CS"
-  },
   "macros": [
     {
       "id": 1001,
@@ -21,6 +10,15 @@
       "hotkey": "ADMIN1",
       "tags": "demo,test,admin",
       "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS}\n\nนี่คือ Macro ตัวอย่างที่ส่งจากระบบ Admin\nหากเห็นข้อความนี้ในแอป = sync ทำงานสำเร็จ\n\nขอบคุณ[ครับ/ค่ะ]"
+    },
+    {
+      "id": 1002,
+      "title": "🆕 Macro ใหม่",
+      "category": "chat-nv",
+      "favorite": false,
+      "hotkey": "Test2",
+      "tags": "",
+      "content": "TEst 2"
     }
   ],
   "categories": []
