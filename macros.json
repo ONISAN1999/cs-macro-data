@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated_at": "2026-06-29",
   "macros": [
     {
@@ -19,6 +19,15 @@
       "hotkey": "Test2",
       "tags": "",
       "content": "TEst 2"
+    },
+    {
+      "id": 1003,
+      "title": "🆕 Macro ใหม่",
+      "category": "chat-nv",
+      "favorite": false,
+      "hotkey": "F1",
+      "tags": "",
+      "content": "ฟานฟาน"
     }
   ],
   "categories": []
