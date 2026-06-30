@@ -1,0 +1,8 @@
+{
+    "version": "3.4.38",
+    "released_at": "2026-06-29",
+    "drive_url": "",
+    "notes": "🌐 Macro มาจาก Admin ส่วนกลาง — sync อัตโนมัติ\n⏱ Timer 3 นาที สำหรับ \"กระตุ้นร้านไม่ตอบ\"\n📋 Clipboard Dropdown ในฟอร์มบันทึกเคส\n🐛 แก้ paste ไม่ highlight สีฟ้า + Pastebot toggle\n🔗 ลิงค์ในแอปเปิด Chrome จริง",
+    "active": false,
+    "mandatory": false
+}
