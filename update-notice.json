@@ -1,8 +1,8 @@
 {
-    "version": "3.4.38",
-    "released_at": "2026-06-29",
-    "drive_url": "",
-    "notes": "🌐 Macro มาจาก Admin ส่วนกลาง — sync อัตโนมัติ\n⏱ Timer 3 นาที สำหรับ \"กระตุ้นร้านไม่ตอบ\"\n📋 Clipboard Dropdown ในฟอร์มบันทึกเคส\n🐛 แก้ paste ไม่ highlight สีฟ้า + Pastebot toggle\n🔗 ลิงค์ในแอปเปิด Chrome จริง",
-    "active": false,
-    "mandatory": false
+  "version": "3.7.14",
+  "released_at": "2026-07-02",
+  "drive_url": "https://drive.google.com/drive/u/0/folders/1LddK5nKn11ylcN1xxk0otov4dLQMVX1V",
+  "notes": "🌐 Macro มาจาก Admin ส่วนกลาง — sync อัตโนมัติ\n⏱ Timer 3 นาที สำหรับ \"กระตุ้นร้านไม่ตอบ\"\n📋 Clipboard Dropdown ในฟอร์มบันทึกเคส\n🐛 แก้ paste ไม่ highlight สีฟ้า + Pastebot toggle\n🔗 ลิงค์ในแอปเปิด Chrome จริง",
+  "active": true,
+  "mandatory": true
 }
