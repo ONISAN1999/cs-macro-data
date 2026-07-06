@@ -1,13 +1,46 @@
 {
-    "version": 1,
-    "updatedAt": "2026-07-06",
-    "abbreviations": [
-          { "id": "lm",  "short": "LM",  "full": "LINE MAN" },
-          { "id": "fs",  "short": "FS",  "full": "FoodStory" },
-          { "id": "wma", "short": "WMA", "full": "Wongnai Merchant App" },
-          { "id": "wn",  "short": "WN",  "full": "Wongnai" },
-          { "id": "apk", "short": "APK", "full": "Android" },
-          { "id": "as",  "short": "AS",  "full": "Application Support" },
-          { "id": "sub", "short": "SUB", "full": "Subscription" }
-    ]
+  "version": 2,
+  "updatedAt": "2026-07-06",
+  "abbreviations": [
+    {
+      "id": "lm",
+      "short": "LM",
+      "full": "LINE MAN"
+    },
+    {
+      "id": "fs",
+      "short": "FS",
+      "full": "FoodStory"
+    },
+    {
+      "id": "wma",
+      "short": "WMA",
+      "full": "Wongnai Merchant App"
+    },
+    {
+      "id": "wn",
+      "short": "WN",
+      "full": "Wongnai"
+    },
+    {
+      "id": "apk",
+      "short": "APK",
+      "full": "Android"
+    },
+    {
+      "id": "as",
+      "short": "AS",
+      "full": "Application Support"
+    },
+    {
+      "id": "sub",
+      "short": "SUB",
+      "full": "Subscription"
+    },
+    {
+      "id": "wpm",
+      "short": "WPM",
+      "full": "Wongnai POS Manager"
+    }
+  ]
 }
