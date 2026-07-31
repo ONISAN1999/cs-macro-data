@@ -1,8 +1,8 @@
 {
-  "version": "3.7.14",
-  "released_at": "2026-07-02",
+  "version": "3.10.11",
+  "released_at": "2026-07-31",
   "drive_url": "https://drive.google.com/drive/u/0/folders/1LddK5nKn11ylcN1xxk0otov4dLQMVX1V",
-  "notes": "🌐 Macro มาจาก Admin ส่วนกลาง — sync อัตโนมัติ\n⏱ Timer 3 นาที สำหรับ \"กระตุ้นร้านไม่ตอบ\"\n📋 Clipboard Dropdown ในฟอร์มบันทึกเคส\n🐛 แก้ paste ไม่ highlight สีฟ้า + Pastebot toggle\n🔗 ลิงค์ในแอปเปิด Chrome จริง",
+  "notes": "🎉 อัปเดต CS Macro v3.10.11 ครับ · ของใหม่+แก้บั๊กเพียบ",
   "active": true,
-  "mandatory": true
+  "mandatory": false
 }
