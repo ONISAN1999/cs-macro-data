@@ -1,8 +1,8 @@
 {
-  "version": "3.10.11",
-  "released_at": "2026-08-06",
+  "version": "3.10.12",
+  "released_at": "2026-08-14",
   "drive_url": "https://drive.google.com/drive/u/0/folders/1LddK5nKn11ylcN1xxk0otov4dLQMVX1V",
-  "notes": "🎉 อัปเดต CS Macro v3.10.11 ครับ · ของใหม่+แก้บั๊กเพียบ",
+  "notes": "📣 CS Macro อัปเดตใหม่ v3.10.12 มาแล้ว! 🎉\n\n🎮 POS Simulator (ฟีเจอร์ใหม่!)\nจำลอง Wongnai POS iPad จากภาพหน้าจอจริง 25 หน้า — กดได้อิสระเหมือนใช้เครื่องจริง\nครอบคลุม: ตั้งเครื่องหลัก · คีย์บิล/จัดส่ง · โต๊ะ/สั่ง/คิดเงิน · ⚙️ เมนูตั้งค่า (ทั่วไป/บุฟเฟ่ต์/ถาดเก็บเงิน)\nเหมาะกับ: ไกด์ลูกค้าทางไกลโดยไม่ต้องมีเครื่องจริง · เทรน CS ใหม่ · ทบทวน flow\n👉 เข้าได้จากเมนู POS Simulator ใน sidebar\n\n⌨️ Pastebot เปลี่ยนคีย์ลัดใหม่เป็น ⌃V (Control+V)\nเลิกชนกับ Google Sheets (⌘⇧V = วางเฉพาะค่า) แล้ว!\nใครถนัดแบบอื่นเลือกเองได้ 5 แบบที่ sidebar → ⌨️ คีย์ลัด · เปลี่ยนแล้วมีผลทันที",
   "active": true,
   "mandatory": false
 }
