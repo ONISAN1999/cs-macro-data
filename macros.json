@@ -1,47 +1,279 @@
 {
-  "version": 6,
-  "updated_at": "2026-06-30",
+  "version": 7,
+  "updated_at": "2026-09-24",
   "macros": [
     {
-      "id": 1001,
-      "title": "🆕 ตัวอย่าง Macro จาก Admin",
+      "id": 1,
+      "title": "🤝 ทักทาย + ขอข้อมูล (พื้นฐาน)",
       "category": "chat-nv",
-      "favorite": false,
-      "hotkey": "ADMIN1",
-      "tags": "demo,test,admin",
-      "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS}\n\nนี่คือ Macro ตัวอย่างที่ส่งจากระบบ Admin\nหากเห็นข้อความนี้ในแอป = sync ทำงานสำเร็จ\n\nขอบคุณ[ครับ/ค่ะ]",
-      "deleted": true
+      "content": "แอดมิน{ชื่อ_CS} สวัสดี[ครับ/ค่ะ] ต้องการให้ช่วยเหลือด้านใดแจ้งได้เลย[นะครับ/นะคะ]\nเพื่อเป็นการให้ข้อมูลที่ถูกต้องและใช้ในการบันทึกข้อมูลในระบบ แอดมินขอทราบข้อมูลดังนี้[ครับ/ค่ะ]\n1. ขอทราบชื่อผู้ติดต่อ\n2. ตำแหน่งในร้าน (เช่น เจ้าของร้าน ผู้จัดการ แคชเชียร์)",
+      "tags": "ทักทาย,เปิดสาย,greeting,verification",
+      "hotkey": "HG1",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": false
     },
     {
-      "id": 1002,
-      "title": "🆕 Macro ใหม่",
+      "id": 2,
+      "title": "🤝 ทักทาย + ขอข้อมูล (ครบ)",
       "category": "chat-nv",
-      "favorite": false,
-      "hotkey": "Test2",
-      "tags": "",
-      "content": "TEst 2",
-      "deleted": true
+      "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS} ยินดีให้บริการ คุณลูกค้าต้องการสอบถามข้อมูลด้านใดดี[ครับ/คะ]\n\nเพื่อเป็นการให้ข้อมูลที่ถูกต้องและใช้ในการบันทึกข้อมูลในระบบ แอดมินขอทราบข้อมูลดังนี้[ครับ/ค่ะ]\n- ชื่อผู้ติดต่อ\n- ตำแหน่งในร้าน (เช่น เจ้าของร้าน ผู้จัดการ แคชเชียร์)\n- เบอร์ลงทะเบียนในระบบ หรือรหัสร้านค้า (Owner App : ช่วยเหลือ → รหัสสาขา | Wongnai Merchant App : ตั้งค่า → แก้ไขข้อมูลร้าน → รหัสร้าน)",
+      "tags": "ทักทาย,เปิดสาย,greeting,verification,Owner App,WMA",
+      "hotkey": "HG",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
     },
     {
-      "id": 1003,
-      "title": "🆕 Macro ใหม่",
+      "id": 3,
+      "title": "✓ ทวนข้อมูลผู้ติดต่อ (เต็ม)",
       "category": "chat-nv",
-      "favorite": false,
-      "hotkey": "F1",
-      "tags": "",
-      "content": "ฟานฟาน",
-      "deleted": true
+      "content": "สวัสดี[ครับ/ค่ะ] แอดมิน {ชื่อ_CS} ยินดีให้บริการ ขออนุญาตทวนข้อมูล[นะครับ/นะคะ]\nคุณ {ชื่อผู้ติดต่อ} ตำแหน่ง {ตำแหน่ง}\nติดต่อจากร้าน {ชื่อร้าน} สาขา {สาขา}\nต้องการสอบถามเรื่อง {หัวข้อ} ถูกต้องหรือไม่[ครับ/คะ]",
+      "tags": "ทวนข้อมูล,verification,recap",
+      "hotkey": "TV",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": false
     },
     {
-      "id": 1004,
-      "title": "🆕 Macro ใหม่",
+      "id": 4,
+      "title": "✓ ทวนชื่อร้าน",
       "category": "chat-nv",
-      "favorite": false,
-      "hotkey": "",
-      "tags": "",
-      "content": "Test Unlive ร้าน - ลูกค้าเก่า",
-      "deleted": true
+      "content": "ข้อมูลร้าน {ชื่อร้าน} สาขา {ชื่อสาขา} ถูกต้องหรือไม่[ครับ/คะ]",
+      "tags": "ทวนข้อมูล,ชื่อร้าน,สาขา,verification",
+      "hotkey": "TS",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "title": "✓ ทวนข้อมูล (สั้น)",
+      "category": "chat-nv",
+      "content": "ขออนุญาตทวนข้อมูล[นะครับ/นะคะ]\nคุณ {ชื่อผู้ติดต่อ} ตำแหน่ง {ตำแหน่ง}\nติดต่อจากร้าน {ชื่อร้าน} สาขา {สาขา}\nต้องการสอบถามเรื่อง {หัวข้อ} ถูกต้องหรือไม่[ครับ/คะ]",
+      "tags": "ทวนข้อมูล,verification,recap",
+      "hotkey": "TV2",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": false
+    },
+    {
+      "id": 6,
+      "title": "💬 ขอเบอร์ / อีเมลลงทะเบียน",
+      "category": "chat-nv",
+      "content": "แอดมินขออนุญาตทราบหมายเลขโทรศัพท์หรืออีเมลที่ลงทะเบียนร้านค้า เพื่อดำเนินการตรวจสอบเพิ่มเติม[ครับ/ค่ะ]",
+      "tags": "ขอข้อมูล,เบอร์,อีเมล,ลงทะเบียน",
+      "hotkey": "OE",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 7,
+      "title": "💬 ขอรหัสร้านค้า (Ref Code)",
+      "category": "chat-nv",
+      "content": "แอดมินขออนุญาตทราบรหัสร้านค้า เพื่อดำเนินการตรวจสอบเพิ่มเติม[ครับ/ค่ะ]\n\nคุณลูกค้าสามารถตรวจสอบรหัสสาขาได้ที่\n- Wongnai POS IPAD : Owner > กดที่ไอคอนรูป W มุมซ้ายบน > ช่วยเหลือ > รหัสสาขา\n- Wongnai Merchant App : การตั้งค่า > แก้ไขข้อมูลร้าน > คัดลอกรหัสร้าน",
+      "tags": "Ref Code,Merchant ID,รหัสสาขา,FoodStory,Wongnai POS iPad,WMA",
+      "hotkey": "RID",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 8,
+      "title": "💬 ทวนเลข Order",
+      "category": "chat-nv",
+      "content": "ต้องการให้แอดมินตรวจสอบออเดอร์หมายเลข {Order_No} ถูกต้อง[นะครับ/นะคะ]",
+      "tags": "Order,ออเดอร์,ทวนข้อมูล",
+      "hotkey": "OD",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 9,
+      "title": "💬 ขอเลข Order",
+      "category": "chat-nv",
+      "content": "แอดมินขออนุญาตทราบหมายเลขออเดอร์ดังกล่าวเพื่อทำการตรวจสอบข้อมูล[ครับ/ค่ะ]",
+      "tags": "Order,ออเดอร์,ขอข้อมูล",
+      "hotkey": "OO",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 10,
+      "title": "💬 ขอ Bank Statement",
+      "category": "chat-nv",
+      "content": "รบกวนคุณลูกค้าส่งภาพหน้าจอรายการเดินบัญชีธนาคาร (statement) ตั้งแต่วันที่ {Date_Start} ถึงวันที่ {Date_End} เพื่อดำเนินการตรวจสอบเพิ่มเติม[ครับ/ค่ะ]",
+      "tags": "Statement,ธนาคาร,หลักฐาน,Bank",
+      "hotkey": "BS",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": false
+    },
+    {
+      "id": 11,
+      "title": "🖼️ ขอภาพ / วิดีโอที่พบปัญหา",
+      "category": "chat-nv",
+      "content": "แอดมินรบกวนคุณลูกค้าส่งภาพ/วิดีโอที่พบปัญหาดังกล่าวเข้ามาเพื่อให้แอดมินดำเนินการตรวจสอบเพิ่มเติมผ่านลิงก์นี้ได้เลย[ครับ/ค่ะ] {Upload_Link}",
+      "tags": "ภาพ,วิดีโอ,Upload,หลักฐาน,Link",
+      "hotkey": "IMG",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 13,
+      "title": "🙏 ขอบคุณสำหรับข้อมูล",
+      "category": "chat-nv",
+      "content": "ขอบคุณสำหรับข้อมูล[ครับ/ค่ะ]",
+      "tags": "ขอบคุณ,thanks",
+      "hotkey": "TY",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 14,
+      "title": "⏸ ขออภัยที่ให้รอ + แจ้งผล",
+      "category": "chat-nv",
+      "content": "แอดมินต้องขออภัยที่ให้รอ[ครับ/ค่ะ] จากการตรวจสอบข้อมูลร้านค้าพบว่า {ผลตรวจสอบ}",
+      "tags": "ขออภัย,รอ,แจ้งผล,result",
+      "hotkey": "SR",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": false
+    },
+    {
+      "id": 15,
+      "title": "📞 ขอข้อมูลติดต่อกลับ (กำหนด SLA เอง)",
+      "category": "chat-nv",
+      "content": "แอดมินขออนุญาตทราบข้อมูลที่สะดวกให้ติดต่อกลับภายใน {SLA} ดังนี้[ครับ/ค่ะ]\n- ชื่อผู้ติดต่อ\n- หมายเลขติดต่อกลับ\n- หมายเลขติดต่อกลับสำรอง (หากมี)\n- อีเมล",
+      "tags": "Renew,ติดต่อกลับ,follow-up,SLA",
+      "hotkey": "CB",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 16,
+      "title": "📧 ขออีเมลแจ้งผลกลับ (กำหนด SLA เอง)",
+      "category": "chat-nv",
+      "content": "แอดมินรบกวนขอทราบข้อมูลอีเมลที่สะดวกให้แจ้งผลกลับภายใน {SLA}[ครับ/ค่ะ]",
+      "tags": "Email,แจ้งผล,follow-up,SLA",
+      "hotkey": "EM",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 17,
+      "title": "📋 แจ้งหมายเลขเคส (ติดตาม)",
+      "category": "chat-nv",
+      "content": "แอดมินดำเนินการประสานงานให้เรียบร้อย[ครับ/ค่ะ] คุณลูกค้าสามารถติดตามเคสโดยแจ้งหมายเลขเคส #{Case_No} ได้เลย[ครับ/ค่ะ]",
+      "tags": "หมายเลขเคส,Case,ticket,ติดตาม",
+      "hotkey": "CN",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 18,
+      "title": "🔚 Pre-Ending: ถามต้องการเพิ่มเติม",
+      "category": "chat-nv",
+      "content": "คุณลูกค้าได้รับข้อมูลครบถ้วน[นะครับ/นะคะ] ต้องการให้ช่วยเหลือด้านใดเพิ่มเติมสามารถแจ้งได้เลย[ครับ/ค่ะ]",
+      "tags": "pre-ending,เพิ่มเติม,further",
+      "hotkey": "PE",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 19,
+      "title": "🔚 Pre-Ending: ข้อมูลครบแล้ว",
+      "category": "chat-nv",
+      "content": "คุณลูกค้าต้องการข้อมูลด้านอื่นเพิ่มเติมหรือไม่[ครับ/คะ] ข้อมูลที่แอดมินแจ้งครบถ้วน[นะครับ/นะคะ]",
+      "tags": "pre-ending,ครบถ้วน",
+      "hotkey": "PE2",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 20,
+      "title": "👋 Ending: ปกติ + ขอประเมิน",
+      "category": "chat-nv",
+      "content": "หากไม่มีข้อมูลสอบถามเพิ่มเติมแล้ว เพื่อเป็นกำลังใจให้แอดมิน {ชื่อ_CS} รบกวนคุณลูกค้ากดประเมินความพึงพอใจ หลังจบการสนทนา ขอบคุณที่ใช้บริการ Wongnai POS Support สวัสดี[ครับ/ค่ะ]",
+      "tags": "ending,ปิดสาย,ประเมิน,review",
+      "hotkey": "E1",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 21,
+      "title": "👋 Ending: ลูกค้าไม่ตอบกลับ",
+      "category": "chat-nv",
+      "content": "เนื่องจากไม่มีการตอบกลับแอดมินขออนุญาตจบบทสนทนา และรบกวนคุณลูกค้าประเมินความพึงพอใจให้กับแอดมินเพิ่มเติมด้วย[นะครับ/นะคะ] ขอบคุณที่ใช้บริการ Wongnai POS Support สวัสดี[ครับ/ค่ะ]",
+      "tags": "ending,ปิดสาย,ไม่ตอบ,no-response",
+      "hotkey": "E2",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 22,
+      "title": "👋 Ending: ย้ายไปคุยทางสาย",
+      "category": "chat-nv",
+      "content": "เนื่องจากทีมงานติดต่อสนทนาผ่านคู่สายกับลูกค้าอยู่ในขณะนี้ จึงขออนุญาตทำการปิดแชทที่สนทนาลงและช่วยเหลือลูกค้าผ่านทางคู่สายแทน รบกวนลูกค้าทำการประเมินการสนทนาใน Live chat ให้เรียบร้อย และแจ้งเรื่องที่ต้องการให้แอดมิน {ชื่อ_CS} ช่วยเหลือทางสายสนทนาได้เลย[ครับ/ค่ะ] ขอบคุณที่ใช้บริการ Wongnai POS Support สวัสดี[ครับ/ค่ะ]",
+      "tags": "ending,ปิดสาย,คู่สาย,call,chat-to-call",
+      "hotkey": "E3",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 29,
+      "title": "📱 LINE OA · Pre-Ending สรุปเคสในแชท",
+      "category": "chat-nv",
+      "content": "สถานะความเข้าใจของลูกค้า : {เข้าใจ ใช้งานต่อได้แล้ว / ยังไม่เข้าใจ ต้องโทรสอนเพิ่ม / อื่นๆ}\nลูกค้าสอบถามข้อมูลอะไร : {สรุปปัญหาที่ร้านติดต่อเข้ามา}\nแจ้งวิธีใช้งานลูกค้าว่าอะไร : {สรุปข้อมูลที่แจ้งให้ลูกค้าดำเนินการ/ประสานงาน} {เลขเคส}",
+      "tags": "LINE OA,pre-ending,สรุปเคส,transfer,sales",
+      "hotkey": "LPE",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 30,
+      "title": "📱 LINE OA · Ending (ไม่มี Survey)",
+      "category": "chat-nv",
+      "content": "หากไม่มีข้อมูลสอบถามเพิ่มเติม แอดมิน {ชื่อ_CS} ขออนุญาตจบการสนทนา[นะครับ/นะคะ]\n\nหากมีข้อสงสัยเพิ่มเติม สามารถทักหาเราได้ทางแชทนี้เลย[ครับ/ค่ะ]\nขอบคุณที่ใช้บริการ Wongnai POS Support [ครับ/ค่ะ]",
+      "tags": "LINE OA,ending,ปิดแชท,no-survey",
+      "hotkey": "LE",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true
+    },
+    {
+      "id": 31,
+      "title": "👋 กระตุ้นร้านไม่ตอบ",
+      "category": "chat-nv",
+      "content": "คุณลูกค้ายังอยู่ในการสนทนาไหม[ครับ/คะ]",
+      "tags": "กระตุ้น,ไม่ตอบ,nudge,check-in,รอตอบ",
+      "hotkey": "NG",
+      "abbrev": "",
+      "shortcut": "",
+      "favorite": true,
+      "timerMinutes": 3,
+      "timerSoundMuted": false,
+      "timerPopupEnabled": true
     }
   ],
-  "categories": []
+  "categories": [
+    {
+      "id": "chat-nv",
+      "name": "💬 Chat NON-VOICE"
+    }
+  ]
 }
