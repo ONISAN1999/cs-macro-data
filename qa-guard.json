@@ -1,44 +1,7 @@
 {
-  "version": 3,
-  "updatedAt": "2026-10-28T06:43:32.547Z",
-  "checklist": [
-    {
-      "id": "greet",
-      "label": "Greeting ภายใน 30 วินาที",
-      "cards": [
-        "HG",
-        "HG1"
-      ]
-    },
-    {
-      "id": "askpos",
-      "label": "สอบถามชื่อ + ตำแหน่งคู่สนทนา",
-      "cards": []
-    },
-    {
-      "id": "verify",
-      "label": "ทวนชื่อร้าน + สาขา",
-      "cards": [
-        "TS",
-        "TV2"
-      ]
-    },
-    {
-      "id": "update",
-      "label": "อัปเดตลูกค้าระหว่างตรวจสอบ (ทุก 5 นาที)",
-      "cards": [
-        "NG",
-        "SR"
-      ]
-    },
-    {
-      "id": "ending",
-      "label": "ปิดบทสนทนาครบสูตร + ขอประเมิน",
-      "cards": [
-        "E1"
-      ]
-    }
-  ],
+  "version": 4,
+  "updatedAt": "2026-10-28T06:54:27.116Z",
+  "checklist": [],
   "catCards": {
     "Verify ข้อมูล": [
       "TS",
