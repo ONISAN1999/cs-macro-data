@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated_at": "2026-09-24",
+  "version": 9,
+  "updated_at": "2026-11-06",
   "macros": [
     {
       "id": 1,
@@ -74,7 +74,7 @@
       "category": "chat-nv",
       "content": "แอดมินขออนุญาตทราบรหัสร้านค้า เพื่อดำเนินการตรวจสอบเพิ่มเติม[ครับ/ค่ะ]\n\nคุณลูกค้าสามารถตรวจสอบรหัสสาขาได้ที่\n- Wongnai POS IPAD : Owner > กดที่ไอคอนรูป W มุมซ้ายบน > ช่วยเหลือ > รหัสสาขา\n- Wongnai Merchant App : การตั้งค่า > แก้ไขข้อมูลร้าน > คัดลอกรหัสร้าน",
       "tags": "Ref Code,Merchant ID,รหัสสาขา,FoodStory,Wongnai POS iPad,WMA",
-      "hotkey": "RID",
+      "hotkey": "DRID",
       "abbrev": "",
       "shortcut": "",
       "favorite": true
